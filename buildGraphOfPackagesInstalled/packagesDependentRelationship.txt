@@ -1,0 +1,178 @@
+botocore==1.13.40
+  - docutils [required: >=0.10,<0.16, installed: 0.15.2]
+  - jmespath [required: >=0.7.1,<1.0.0, installed: 0.9.4]
+  - python-dateutil [required: >=2.1,<2.8.1, installed: 2.8.0]
+    - six [required: >=1.5, installed: 1.13.0]
+  - urllib3 [required: >=1.20,<1.26, installed: 1.25.7]
+django-autocomplete-light==3.3.5
+django-bootstrap3==11.0.0
+django-bulk-update==2.2.0
+  - Django [required: >=1.8, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+django-cors-headers==3.0.2
+  - Django [required: >=1.11, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+django-crispy-forms==1.7.2
+django-debug-panel==0.8.3
+  - django-debug-toolbar [required: >=1.0, installed: 2.0]
+    - Django [required: >=1.11, installed: 2.2.3]
+      - pytz [required: Any, installed: 2019.3]
+      - sqlparse [required: Any, installed: 0.3.0]
+    - sqlparse [required: >=0.2.0, installed: 0.3.0]
+django-debug-toolbar-request-history==0.1.0
+  - django-debug-toolbar [required: >=2.0, installed: 2.0]
+    - Django [required: >=1.11, installed: 2.2.3]
+      - pytz [required: Any, installed: 2019.3]
+      - sqlparse [required: Any, installed: 0.3.0]
+    - sqlparse [required: >=0.2.0, installed: 0.3.0]
+django-easy-select2==1.5.6
+django-filter==2.1.0
+  - Django [required: >=1.11, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+django-guardian==2.0.0
+django-json-widget==0.2.0
+django-model-utils==3.2.0
+  - Django [required: >=1.11, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+django-post-office==3.2.1
+  - django [required: >=1.8, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+  - jsonfield [required: Any, installed: 2.0.2]
+    - Django [required: >=1.8.0, installed: 2.2.3]
+      - pytz [required: Any, installed: 2019.3]
+      - sqlparse [required: Any, installed: 0.3.0]
+django-rest-marshmallow==4.0.0
+django-rest-swagger==2.2.0
+  - coreapi [required: >=2.3.0, installed: 2.3.3]
+    - coreschema [required: Any, installed: 0.0.4]
+      - jinja2 [required: Any, installed: 2.10.3]
+        - MarkupSafe [required: >=0.23, installed: 1.1.1]
+    - itypes [required: Any, installed: 1.1.0]
+    - requests [required: Any, installed: 2.22.0]
+      - certifi [required: >=2017.4.17, installed: 2019.11.28]
+      - chardet [required: >=3.0.2,<3.1.0, installed: 3.0.4]
+      - idna [required: >=2.5,<2.9, installed: 2.8]
+      - urllib3 [required: >=1.21.1,<1.26,!=1.25.1,!=1.25.0, installed: 1.25.7]
+    - uritemplate [required: Any, installed: 3.0.0]
+  - djangorestframework [required: >=3.5.4, installed: 3.9.4]
+  - openapi-codec [required: >=1.3.1, installed: 1.3.2]
+    - coreapi [required: >=2.2.0, installed: 2.3.3]
+      - coreschema [required: Any, installed: 0.0.4]
+        - jinja2 [required: Any, installed: 2.10.3]
+          - MarkupSafe [required: >=0.23, installed: 1.1.1]
+      - itypes [required: Any, installed: 1.1.0]
+      - requests [required: Any, installed: 2.22.0]
+        - certifi [required: >=2017.4.17, installed: 2019.11.28]
+        - chardet [required: >=3.0.2,<3.1.0, installed: 3.0.4]
+        - idna [required: >=2.5,<2.9, installed: 2.8]
+        - urllib3 [required: >=1.21.1,<1.26,!=1.25.1,!=1.25.0, installed: 1.25.7]
+      - uritemplate [required: Any, installed: 3.0.0]
+  - simplejson [required: Any, installed: 3.17.0]
+djangorestframework-jwt==1.11.0
+  - PyJWT [required: >=1.5.2,<2.0.0, installed: 1.7.1]
+drfdocs==0.0.11
+forex-python==1.5
+  - requests [required: Any, installed: 2.22.0]
+    - certifi [required: >=2017.4.17, installed: 2019.11.28]
+    - chardet [required: >=3.0.2,<3.1.0, installed: 3.0.4]
+    - idna [required: >=2.5,<2.9, installed: 2.8]
+    - urllib3 [required: >=1.21.1,<1.26,!=1.25.1,!=1.25.0, installed: 1.25.7]
+  - simplejson [required: Any, installed: 3.17.0]
+geopy==1.20.0
+  - geographiclib [required: >=1.49,<2, installed: 1.50]
+grid-core-db==0.72
+  - Django [required: >=1.11.0,<3.0.0, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+  - psycopg2 [required: >=2.6.0,<=3.0.0, installed: 2.8.3]
+Markdown==3.1.1
+  - setuptools [required: >=36, installed: 40.6.2]
+marshmallow==2.19.5
+mock==1.3.0
+  - pbr [required: >=0.11, installed: 5.4.4]
+  - six [required: >=1.7, installed: 1.13.0]
+model-mommy==1.2.6
+  - Django [required: Any, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+  - six [required: Any, installed: 1.13.0]
+opencv-python-headless==4.1.2.30
+  - numpy [required: >=1.11.3, installed: 1.17.4]
+pip-date==1.0.3
+  - requests [required: Any, installed: 2.22.0]
+    - certifi [required: >=2017.4.17, installed: 2019.11.28]
+    - chardet [required: >=3.0.2,<3.1.0, installed: 3.0.4]
+    - idna [required: >=2.5,<2.9, installed: 2.8]
+    - urllib3 [required: >=1.21.1,<1.26,!=1.25.1,!=1.25.0, installed: 1.25.7]
+pipdeptree==0.13.2
+  - pip [required: >=6.0.0, installed: 20.0.2]
+psycopg2-binary==2.8.3
+pytest==2.9.2
+  - py [required: >=1.4.29, installed: 1.8.0]
+PyYAML==5.1.1
+scikit-image==0.16.2
+  - imageio [required: >=2.3.0, installed: 2.6.1]
+    - numpy [required: Any, installed: 1.17.4]
+    - pillow [required: Any, installed: 6.1.0]
+  - matplotlib [required: >=2.0.0,!=3.0.0, installed: 3.1.2]
+    - cycler [required: >=0.10, installed: 0.10.0]
+      - six [required: Any, installed: 1.13.0]
+    - kiwisolver [required: >=1.0.1, installed: 1.1.0]
+      - setuptools [required: Any, installed: 40.6.2]
+    - numpy [required: >=1.11, installed: 1.17.4]
+    - pyparsing [required: >=2.0.1,!=2.1.6,!=2.1.2,!=2.0.4, installed: 2.4.5]
+    - python-dateutil [required: >=2.1, installed: 2.8.0]
+      - six [required: >=1.5, installed: 1.13.0]
+  - networkx [required: >=2.0, installed: 2.4]
+    - decorator [required: >=4.3.0, installed: 4.4.1]
+  - pillow [required: >=4.3.0, installed: 6.1.0]
+  - PyWavelets [required: >=0.4.0, installed: 1.1.1]
+    - numpy [required: >=1.13.3, installed: 1.17.4]
+  - scipy [required: >=0.19.0, installed: 1.4.0]
+    - numpy [required: >=1.13.3, installed: 1.17.4]
+service-interceptor==0.4
+WeasyPrint==48
+  - cairocffi [required: >=0.9.0, installed: 1.1.0]
+    - cffi [required: >=1.1.0, installed: 1.13.2]
+      - pycparser [required: Any, installed: 2.19]
+    - setuptools [required: >=39.2.0, installed: 40.6.2]
+  - CairoSVG [required: >=2.4.0, installed: 2.4.2]
+    - cairocffi [required: Any, installed: 1.1.0]
+      - cffi [required: >=1.1.0, installed: 1.13.2]
+        - pycparser [required: Any, installed: 2.19]
+      - setuptools [required: >=39.2.0, installed: 40.6.2]
+    - cssselect2 [required: Any, installed: 0.2.2]
+      - tinycss2 [required: Any, installed: 1.0.2]
+        - setuptools [required: >=39.2.0, installed: 40.6.2]
+        - webencodings [required: >=0.4, installed: 0.5.1]
+    - defusedxml [required: Any, installed: 0.6.0]
+    - pillow [required: Any, installed: 6.1.0]
+    - tinycss2 [required: Any, installed: 1.0.2]
+      - setuptools [required: >=39.2.0, installed: 40.6.2]
+      - webencodings [required: >=0.4, installed: 0.5.1]
+  - cffi [required: >=0.6, installed: 1.13.2]
+    - pycparser [required: Any, installed: 2.19]
+  - cssselect2 [required: >=0.1, installed: 0.2.2]
+    - tinycss2 [required: Any, installed: 1.0.2]
+      - setuptools [required: >=39.2.0, installed: 40.6.2]
+      - webencodings [required: >=0.4, installed: 0.5.1]
+  - html5lib [required: >=0.999999999, installed: 1.0.1]
+    - six [required: >=1.9, installed: 1.13.0]
+    - webencodings [required: Any, installed: 0.5.1]
+  - Pyphen [required: >=0.8, installed: 0.9.5]
+  - setuptools [required: >=39.2.0, installed: 40.6.2]
+  - tinycss2 [required: >=1.0.0, installed: 1.0.2]
+    - setuptools [required: >=39.2.0, installed: 40.6.2]
+    - webencodings [required: >=0.4, installed: 0.5.1]
+webtracking-db==0.7
+  - Django [required: >=1.11.0,<=3.0.0, installed: 2.2.3]
+    - pytz [required: Any, installed: 2019.3]
+    - sqlparse [required: Any, installed: 0.3.0]
+  - psycopg2 [required: >=2.6.0,<=3.0.0, installed: 2.8.3]
+wheel==0.33.6
+whitenoise==4.1.2

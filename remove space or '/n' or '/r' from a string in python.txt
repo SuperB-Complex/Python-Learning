@@ -1,0 +1,48 @@
+remove space or '\n' or '\r' from a string in python
+
+strip() example:
+>>> s = '''  ssss
+... ertyu fghj     '''
+>>> len(s)
+22
+>>> ss = s.strip()
+>>> len(ss)
+15
+>>> s
+'  ssss\nertyu fghj     '
+>>> ss
+'ssss\nertyu fghj'
+
+lstrip() / rstrip() example:
+>>> s = '''      ertydfghvb vbnvbnghj bn fgh th ty 
+...    rtyvbn  fghjyu ghjghj     '''
+>>> len(s)
+70
+>>> s.lstrip()
+'ertydfghvb vbnvbnghj bn fgh th ty \n   rtyvbn  fghjyu ghjghj     '
+>>> ls = s.lstrip()
+>>> len(ls)
+64
+>>> rs = s.rstrip()
+>>> len(rs)
+65
+>>> ls
+'ertydfghvb vbnvbnghj bn fgh th ty \n   rtyvbn  fghjyu ghjghj     '
+>>> rs
+'      ertydfghvb vbnvbnghj bn fgh th ty \n   rtyvbn  fghjyu ghjghj'
+>>> s
+'      ertydfghvb vbnvbnghj bn fgh th ty \n   rtyvbn  fghjyu ghjghj     '
+
+remove '\n' example:
+>>> s
+'ssss\nertyu fghj'
+>>> s.replace("\n", "")
+'ssssertyu fghj'
+>>> s.replace("", "")
+'ssss\nertyu fghj'
+>>> sn = s.replace("\n", "")
+
+remove space example:
+>>> sns = sn.replace(" ", "")
+>>> sns
+'ssssertyufghj'

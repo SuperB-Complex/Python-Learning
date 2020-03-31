@@ -1,0 +1,64 @@
+size differences in chr ascii bytearray 
+
+>>> import sys
+
+>>> a = bytearray()
+>>> a.append(1)
+>>> a.append(0)
+>>> a.append(0)
+>>> a.append(0)
+>>> a.append(1)
+>>> a.append(1)
+>>> a.append(1)
+>>> a.append(1)
+>>> a.append(0)
+>>> a
+bytearray(b'\x01\x00\x00\x00\x01\x01\x01\x01\x00')
+>>> sys.getsizeof(a)
+68
+
+>>> s = '100011110'
+>>> sys.getsizeof(s)
+58
+
+>>> c = chr(s)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: an integer is required (got type str)
+
+>>> as = ascii('0')
+  File "<stdin>", line 1
+    as = ascii('0')
+     ^
+SyntaxError: invalid syntax
+
+>>> asc = ascii('0')
+>>> asc
+"'0'"
+>>> asc = ascii(0)
+>>> asc
+'0'
+>>> ascs = ascii(100011110)
+>>> ascs
+'100011110'
+>>> sys.getsizeof(asc)
+50
+>>> sys.getsizeof(ascs)
+58
+
+>>> ss = 'http://rankings.ft.com/businessschoolrankings/university-of-virginia-darden/executive-education---open#executive-education---open'
+>>> sys.getsizeof(ss)
+178
+
+>>> aa = ascii(ss)
+>>> aa
+"'http://rankings.ft.com/businessschoolrankings/university-of-virginia-darden/executive-education---open#executive-education---open'"
+>>> sys.getsizeof(aa)
+180
+>>> sys.getsizeof(ss)
+178
+>>> ascsl = ascii(11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111)
+>>> ascsl
+'11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111'
+>>> sys.getsizeof(ascsl)
+147
